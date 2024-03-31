@@ -1,0 +1,14 @@
+C:\Users\natal\Desktop\ИВАН\Olekipasa\bin\Debug\net6.0\Olekipasa.exe
+C:\Users\natal\Desktop\ИВАН\Olekipasa\bin\Debug\net6.0\Olekipasa.deps.json
+C:\Users\natal\Desktop\ИВАН\Olekipasa\bin\Debug\net6.0\Olekipasa.runtimeconfig.json
+C:\Users\natal\Desktop\ИВАН\Olekipasa\bin\Debug\net6.0\Olekipasa.dll
+C:\Users\natal\Desktop\ИВАН\Olekipasa\bin\Debug\net6.0\Olekipasa.pdb
+C:\Users\natal\Desktop\ИВАН\Olekipasa\obj\Debug\net6.0\Olekipasa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natal\Desktop\ИВАН\Olekipasa\obj\Debug\net6.0\Olekipasa.AssemblyInfoInputs.cache
+C:\Users\natal\Desktop\ИВАН\Olekipasa\obj\Debug\net6.0\Olekipasa.AssemblyInfo.cs
+C:\Users\natal\Desktop\ИВАН\Olekipasa\obj\Debug\net6.0\Olekipasa.csproj.CoreCompileInputs.cache
+C:\Users\natal\Desktop\ИВАН\Olekipasa\obj\Debug\net6.0\Olekipasa.dll
+C:\Users\natal\Desktop\ИВАН\Olekipasa\obj\Debug\net6.0\refint\Olekipasa.dll
+C:\Users\natal\Desktop\ИВАН\Olekipasa\obj\Debug\net6.0\Olekipasa.pdb
+C:\Users\natal\Desktop\ИВАН\Olekipasa\obj\Debug\net6.0\Olekipasa.genruntimeconfig.cache
+C:\Users\natal\Desktop\ИВАН\Olekipasa\obj\Debug\net6.0\ref\Olekipasa.dll
