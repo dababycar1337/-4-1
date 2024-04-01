@@ -13,7 +13,7 @@ namespace App5
             Onedimensional<int> IntOne = new Onedimensional<int>();
             Onedimensional<string> StringOne = new Onedimensional<string>();
 
-            //int-�����:
+            //int-÷àñòü:
             for(int i = 0; i < 9; i++)
             {
                 IntOne.Add(i + 1);
@@ -27,20 +27,23 @@ namespace App5
             Console.WriteLine(IntOne.ConditionForAll((x) => x <= 5));
             Console.WriteLine(IntOne.Size());
             Console.WriteLine(IntOne.AmountByCondition((x) => x <= 5));
+            IntOne.Print();
+            Console.WriteLine("Минимум массива:" + IntOne.Min());
+            Console.WriteLine("Максимум массива:" + IntOne.Max());
 
 
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("");
 
-            //string-�����:
+            //string-÷àñòü:
             for (int i = 0; i < 9; i++)
             {
                 StringOne.Add($"{i + 1}");
             }
             string stringitem = Console.ReadLine();
             StringOne.Remove(stringitem, (y, x) => y == x);
-            StringOne.ByCondition((x) => x != "���������� ������� �� ������������");
+            StringOne.ByCondition((x) => x != "èñêëþ÷åíèÿ äîâîäÿò äî ñàìîóáèéñòâà");
             StringOne.Reverse();
             StringOne.ActionForAll((x) => x + x);
             Console.WriteLine(StringOne.ConditionForOne((x) => x != "5"));
@@ -48,6 +51,8 @@ namespace App5
             Console.WriteLine(StringOne.Size());
             Console.WriteLine(StringOne.AmountByCondition((x) => x != "5"));
             StringOne.Print();
+            Console.WriteLine("Минимум массива:" + StringOne.Min());
+            Console.WriteLine("Максимум массива:" + StringOne.Max());
         }
     }
 }
