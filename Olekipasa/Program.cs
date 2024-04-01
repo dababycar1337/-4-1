@@ -28,8 +28,8 @@ namespace App5
             Console.WriteLine(IntOne.Size());
             Console.WriteLine(IntOne.AmountByCondition((x) => x <= 5));
             IntOne.Print();
-            Console.WriteLine("Минимум массива:" + IntOne.Min());
-            Console.WriteLine("Максимум массива:" + IntOne.Max());
+            Console.WriteLine("Минимум массива: " + IntOne.Min());
+            Console.WriteLine("Максимум массива: " + IntOne.Max());
 
 
             Console.WriteLine("");
@@ -51,8 +51,8 @@ namespace App5
             Console.WriteLine(StringOne.Size());
             Console.WriteLine(StringOne.AmountByCondition((x) => x != "5"));
             StringOne.Print();
-            Console.WriteLine("Минимум массива:" + StringOne.Min());
-            Console.WriteLine("Максимум массива:" + StringOne.Max());
+            Console.WriteLine("Минимум массива: " + StringOne.Min());
+            Console.WriteLine("Максимум массива: " + StringOne.Max());
         }
     }
 }
