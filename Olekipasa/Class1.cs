@@ -162,5 +162,27 @@ namespace App5
             }
             Console.WriteLine("");
         }
+
+        public T Min()
+        {
+            T min = _array[0];
+            for (int i = 1; i < _size; i++)
+            {
+                if (Comparer<T>.Default.Compare(_array[i], min) < 0)
+                    min = _array[i];
+            }
+            return min;
+        }
+
+        public T Max()
+        {
+            T max = _array[0];
+            for (int i = 1; i < _size; i++)
+            {
+                if (Comparer<T>.Default.Compare(_array[i], max) > 0)
+                    max = _array[i];
+            }
+            return max;
+        }
     }
 }
